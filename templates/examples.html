@@ -1,0 +1,59 @@
+{%extends "header.html"%}
+{%block header%}
+
+<div class="container">
+  <h1>Examples</h1>
+</div>
+
+     <div class="container">
+       <div class="work-card">
+
+         <div class="card-body">
+           <a href="https://flask-manual-admin-v-05.herokuapp.com/home" target="_blank"><img src="../static/img/example-images/flask-plus-sqlalchemy.png" ></a>
+               <h3>Manual Admin page</h3>
+               <p>Flask and Flask-SQLAlchemy username: testusername , password: password</p>
+               <a href="https://github.com/kkhashayar/Flask-admin-manual" target="_blank"><img  src="../static/img/gitHub.png" alt=""></a>
+
+         </div>
+       </div>
+     </div>
+
+     <div class="container">
+       <div class="work-card">
+         <div class="card-body">
+           <a href="https://bookstore-manager-flask-sqlite.herokuapp.com/home" target="_blank"><img src="../static/img/example-images/sqlite.png" ></a>
+
+               <h3>Simple Bookstore management</h3>
+               <p>Basic CRUD functionality with SQlite and Flask</p>
+               <a href="https://github.com/kkhashayar/bookstore-manager-flask-sqlite-v2" target="_blank"><img  src="../static/img/gitHub.png" alt=""></a>
+         </div>
+       </div>
+     </div>
+
+      <div class="container">
+        <div class="work-card">
+          <div class="card-body">
+            <a href="https://personal-workout-tracker.herokuapp.com/home" target="_blank"><img src="../static/img/example-images/sqlite.png" ></a>
+                <h3>Simple workout tracker</h3>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="work-card">
+          <div class="card-body">
+            <a href="https://bookstore-manager-flask-sqlite.herokuapp.com/home" target="_blank"><img src="../static/img/flask.jpg" ></a>
+
+                <h3>Simplepycodes</h3>
+                <p>This very website built by Flask / Bootstrap</p>
+                <a href="https://github.com/kkhashayar/Flask-simplepycodes" target="_blank"><img  src="../static/img/gitHub.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+{% include "includes/_footer.html" %}
+{%endblock%}

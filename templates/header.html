@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Programming tutorialss, Python tutorials, Database, Game development">
+  <meta name="keywords" content="Programming tutorials, Python tutorials, C tutorials, Game development with pygame, Pygame tutorials">
+  <meta name="author" content="Khashayar N">
+  <meta name="Youtube" content="Simplepycodes">
+  <title>Simplepycodes | Welcome</title>
+  <!-- Fount awesome -->
+  <script src="https://kit.fontawesome.com/3f711b669b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../static/styles/master.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div id="branding">
+
+        <a href="{{url_for('index')}}"><img src="../static/img/simplepycodes-logo.png" alt=""></a>
+
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="{{url_for('index')}}">Home</a></li>
+            <li><a href="{{url_for('all_tutorials')}}">Tutorials</a></li>
+            <li><a href="{{url_for('examples')}}">Examples</a></li>
+            <li><a href="{{url_for('about')}}">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  {%block header%}{%endblock%}
+  <body>
+
+  </body>
+</html>
